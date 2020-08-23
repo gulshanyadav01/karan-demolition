@@ -1,0 +1,345 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+
+
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar{
+    background-image:linear-gradient(to right, black,black);
+    padding:0 !important;
+    /* background:#f8f9f9; */
+
+}
+.navbar-brand img{
+    height:70px;
+    padding-left:20px;
+    border-radius:30px;
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+
+.navbar-nav li a{
+    color:white !important;
+    font-weight:600;
+    float:right;
+    text-align:left;
+
+}
+
+.fa-bars{
+    color:#fff !important;
+    font-size:30px !important;
+
+
+}
+.navbar-toggler{
+    outline:none !important;
+}
+
+
+/* ++++++++++++++ Banner Section +++++++++++++ */
+
+#banner{
+    background-image:linear-gradient(to right,black,black);
+    color:#fff;
+    padding-top:5%;
+    height:100vh;
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 80%,0% 100%); */
+    
+}
+
+.promo-title{
+    font-size:30px;
+    font-weight:600;
+    margin-top:100px;
+}
+.bottom-img{
+    width:100%;
+    height:100px;
+}
+/* ====================== services============= */
+#service{
+ padding:80px 0;
+ margin-left:50px;
+ /* border:1px solid black; */
+
+
+}
+
+.service-img{
+    width:100%;
+    margin-top:10px;
+    height:180px;
+    border-radius:20px;
+}
+.services{
+    /* padding:50px; */
+    /* box-shadow:3px 3px 3px grey; */
+    /* margin-left:20px; */
+    /* margin:20px; */
+    /* border:1px solid black; */
+    box-shadow: 0px 0px 10px black,0px 0px 10px black;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:20px;
+    border-radius:20px;
+    transition:transform 0.5s;
+
+    /* padding-left:20px; */
+    /* margin-left:50px;
+    margin-right:50px; */
+
+    
+}
+.services:hover{
+    transform:translateY(-20px);
+
+
+}
+
+.services h4{
+    padding:5px;
+    margin-top:25px;
+    text-transform:uppercase;
+
+
+}
+
+#services .btn-primary{
+    margin-top:20px;
+    box-shadow:none;
+    padding:8px 25px;
+    border:none;
+    border-radius:20px;
+    background:linear-gradient(to right,#a517ba,#5f1782);
+}
+
+
+.title{
+    margin-top:50px;
+}
+.title::before{
+    content:"";
+    background:#7b1798;
+    height:5px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    /* margin-bottom:40px; */
+    display:block;
+    transform:translateY(63px);
+}
+.title::after{
+    content:"";
+    background:#7b1798;
+    height:10px;
+    width:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+    display:block;
+    transform:translateY(8px);
+}
+
+
+#sevices .btn-primary{
+    box-shadow:none;
+    padding:8px 25px;
+    border:none;
+    border-radius:20px;
+    background-image:linear-gradient(to right,black,black);
+}
+.who{
+    text-align:center;
+}
+.who::before{
+    content:"";
+    background:#7b1798;
+    height:5px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    /* margin-bottom:40px; */
+    display:block;
+    transform:translateY(63px);
+}
+.who::after{
+    content:"";
+    background:#7b1798;
+    height:10px;
+    width:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+    display:block;
+    transform:translateY(8px);
+
+}
+/* ------------------ About us ----------------------- */
+.excava img{
+    border-radius:20px;
+    box-shadow: 0px 0px 10px #a517ba,0px 0px 10px #5f1782;
+    transition:transform 0.5s;
+
+}
+.excava img:hover{
+    transform:translateY(63px);
+}
+
+#about-us{
+    background:#f8f9f9;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+
+.about-title{
+    font-size:40px;
+    font-weight:600;
+    margin-top:8%;
+}
+
+#about-us ul li{
+    margin:10px 0;
+
+}
+#about-us ul{
+    margin-left:20px;
+}
+
+
+/* _______________________________testimonials________________ */
+#testimonials{
+    margin:100px 0;
+}
+.testimonials{
+    border-left:4px solid #7b1798;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.testimonials img {
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    margin:0 10px;
+}
+
+.user-details{
+    display:inline-block;
+    font-size:12px;
+}
+
+/* +++++++++++++++++++++ social media Section------- */
+
+
+
+#social-media{
+    background:#f8f9f9;
+    padding:100px 0px;
+}
+
+#social-media p{
+    font-size:36px;
+    font-weight:600;
+
+}
+.social-icons img{
+    width:50px;
+    transition:transform 0.5s;
+}
+
+.facebook a img:hover{
+    transform:translateY(-10px);
+}
+
+
+/* ++++++++++++== footer section +++++++++= */
+#footer{
+    /* background:linear-gradient(to right,#a517ba,#5f1782); */
+    color:#fff;
+    background:black;
+}
+
+.footer-box{
+    padding:20px;
+}
+.footer-box{
+    width:120px;
+    margin-bottom:20px;
+}
+.hello{
+    margin-top:180px;
+    /* border-left:2px solid black; */
+}
+.footer-box .fa{
+    margin-right:8px;
+    font-size:25px;
+    width:40px;
+    text-align:center;
+    padding-top:7px;
+    border-radius:2px;
+    background:linear-gradient(to right,#a517ba,#5f1782);
+
+    
+}
+
+hr{
+    background:white;
+}
+.copyright{
+    margin-bottom:0;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+
+
+/* ++++++++++++= recent portfolio------ */
+#portfolio{
+    /* background:#18191A; */
+    background:#f8f9f9;
+}
+.para{
+    padding:30px;
+
+
+}
+
+.col-md-3 img{
+    width:100%;
+    height:150px;
+    margin-top:10px;
+    border-radius:20px;
+}
+.circle{
+    border-radius:30px;
+    border:2px solid #a517ba;
+    margin:30px;
+    /* background:white; */
+}
+
+
+
+#behind{
+    margin-top:30px;
+}
+
+.image {
+   
+    margin:20px;
+    
+}
+.image img{
+    height:500px;
+    border-radius:30px;
+    box-shadow: 0px 0px 5px #a517ba,0px 0px 5px #5f1782;
+}
